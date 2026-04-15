@@ -97,6 +97,20 @@ export const environment = {
     // Configuración de capas disponibles
     urls_layers: [
         // Array de capas con URLs, descripciones y configuraciones
+        //Ejemplo:
+        {
+            url: 'https://geoservicios.mtop.gub.uy/geoserver/inf_tte_ttelog_terrestre/v_camineria_nacional/wms?request=GetCapabilities',
+            description: 'Rutas Nacionales',
+            type: 'WMS',
+            show: true,
+            visible: true
+        },{
+            url: 'https://mapastest.mgap.gub.uy/arcgis/rest/services/SNIA_Temas/Calles_Uy/MapServer',
+            description: 'Calles',
+            type: 'Feature',
+            show: true,
+            visible: false
+        },
     ],
     
     // Configuración de puntos
